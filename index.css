@@ -1,45 +1,56 @@
-*{
+* {
   box-sizing: border-box;
 }
-html{
+
+html {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
-main{
+
+main {
   padding: 20px;
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: "bai";
   src: url(Bai_Jamjuree/BaiJamjuree-Regular.ttf);
-}/*# sourceMappingURL=index.css.map */
-body{
+}
+
+/*# sourceMappingURL=index.css.map */
+body {
   background-image: url(images/bg-header-desktop.png);
   background-repeat: no-repeat;
-  font-family: 'bai',Arial, Helvetica, sans-serif;
+  font-family: 'bai', Arial, Helvetica, sans-serif;
 }
-.header-img{
+
+.header-img {
   margin-left: 400px;
   box-sizing: border-box;
 }
-h1{
+
+h1 {
   text-align: center;
   color: rgb(101, 101, 101);
 }
-.header-p{
+
+.header-p {
   text-align: center;
   color: hsl(180, 1%, 69%);
 }
-.header-pcloser{
+
+.header-pcloser {
   margin-top: -15px;
   text-align: center;
   color: hsl(216, 4%, 74%);
 }
-.button{
+
+.button {
   margin-left: 300px;
 }
-.cyan{
+
+.cyan {
   margin-top: 40px;
   background-color: hsl(171, 66%, 44%);
   padding: 15px;
@@ -50,7 +61,8 @@ h1{
   width: 25%;
   box-shadow: 0px 3px 7px hsl(171, 69%, 26%);
 }
-.blue{
+
+.blue {
   background-color: hsl(233, 100%, 69%);
   padding: 15px;
   border: none;
@@ -59,141 +71,172 @@ h1{
   width: 25%;
   box-shadow: 0px 3px 7px black;
 }
-.header2{
+
+.header2 {
   text-align: center;
   color: rgb(101, 101, 101);
   margin-top: 100px;
 }
-.header-pcloserabit{
+
+.header-pcloserabit {
   margin-top: -10px;
   text-align: center;
   color: hsl(216, 4%, 74%);
 }
-.computer{
+
+.computer {
   width: 80%;
 }
+
 /* grid */
-.row{
+.row {
   margin-right: -20px;
   margin-top: 50px;
 }
-.col{
+
+.col {
   float: left;
   width: 100%;
   padding-right: -20px;
   box-sizing: border-box;
 }
-.col-xs-8{
+
+.col-xs-8 {
   width: 66.662%;
 }
-.col-xs-3{
+
+.col-xs-3 {
   width: 25%;
   margin-left: 50px;
 }
-.col-xs-3 img{
+
+.col-xs-3 img {
   margin-left: 50px;
 }
-.col-xs-4{
+
+.col-xs-4 {
   width: 33.332%;
 }
-h4{
+
+h4 {
   margin-left: 10px;
   color: rgb(71, 71, 71);
 }
+
 .row:before,
 .row:after,
 .group:before,
-.group:after{
+.group:after {
   content: "";
   display: table;
 }
+
 .row:after,
-.group:after{
+.group:after {
   clear: both;
 }
-.details{
+
+.details {
   font-size: 10px;
   color: hsl(180, 0%, 59%);
 }
-.details-closer{
+
+.details-closer {
   margin-top: -5px;
-   font-size: 10px;
+  font-size: 10px;
   color: hsl(180, 0%, 59%);
 }
-h3{
+
+h3 {
   color: rgb(87, 85, 85);
   margin-top: 30px;
 }
-.lower{
+
+.lower {
   margin-top: 200px;
 }
-.devices{
+
+.devices {
   margin-top: 70px;
 }
-.bottom-p{
+
+.bottom-p {
   font-size: 10px;
   color: hsl(216, 4%, 74%);
 }
-.bottom-ps{
+
+.bottom-ps {
   margin-left: 60px;
   font-size: 10px;
   margin-top: -10px;
   color: hsl(216, 4%, 74%);
 }
-.google{
+
+.google {
   margin-top: 100px;
   margin-right: 100px;
   width: 110px;
 }
-.ibm{
+
+.ibm {
   margin-right: 100px;
   width: 110px;
 }
-.ms{
+
+.ms {
   margin-right: 50px;
   width: 110px;
 }
-.hp{
+
+.hp {
   margin-right: 50px;
   width: 110px;
 }
-.vc{
+
+.vc {
   margin-right: 50px;
   width: 110px;
 }
-.part{
+
+.part {
   font-size: 12px;
   color: hsl(216, 4%, 74%);
   margin-left: -35px;
 }
-.way{
+
+.way {
   color: hsl(216, 4%, 74%);
   font-size: 10px;
   margin-top: -10px;
   margin-left: -10px;
-  
+
 }
-.source{
+
+.source {
   margin-top: -10px;
   font-size: 10px;
   margin-left: 50px;
   color: hsl(216, 4%, 74%);
 }
-h2{
+
+h2 {
   text-align: center;
   color: rgb(101, 101, 101);
   margin-top: 150px;
 }
-.move{
+
+.move {
   text-align: center;
   color: hsl(216, 4%, 74%);
 }
-.moves{
-   text-align: center;
-    color: hsl(216, 4%, 74%);
-    margin-top: -10px;
+
+.moves {
+  text-align: center;
+  color: hsl(216, 4%, 74%);
+  margin-top: -10px;
 }
-.green{
+
+.green {
   margin-top: 40px;
   background-color: hsl(171, 66%, 44%);
   padding: 15px;
@@ -205,7 +248,8 @@ h2{
   margin-left: 300px;
   box-shadow: 0px 3px 7px hsl(171, 69%, 26%);
 }
-.blues{
+
+.blues {
   background-color: hsl(233, 100%, 69%);
   padding: 15px;
   border: none;
@@ -214,174 +258,852 @@ h2{
   width: 20%;
   box-shadow: 0px 3px 7px black;
 }
-footer{
+
+footer {
   position: relative;
   height: 100px;
   padding: 10px;
   top: 200px;
   background-color: hsl(0, 0%, 97%);
 }
-.position{
+
+.position {
   position: absolute;
   top: -70px;
 }
-.logo{
+
+.logo {
   width: 40px;
   margin-top: 100px;
   margin-left: 50px;
 }
-.pri{
+
+.pri {
   margin-left: 120px;
   margin-top: -38px;
 }
-.install{
+
+.install {
   margin-left: 310px;
   margin-top: -35px;
 }
-.pre{
+
+.pre {
   margin-top: -35px;
   margin-left: 120px;
 }
-.footer{
+
+.footer {
   margin-top: -60px;
   margin-left: 200px;
 }
-.handles{
+
+.handles {
   margin-top: -50px;
   margin-left: 800px;
 }
-.fb{
+
+.fb {
   margin-right: 10px;
 }
-.twitter{
+
+.twitter {
   margin-right: 10px;
 }
-.insta{
+
+.insta {
   margin-right: 10px;
 }
-@media(max-width:375px){
-  .header-img{
+
+@media(max-width:375px) {
+  .header-img {
     margin-left: 70px;
     margin-bottom: 40px;
   }
-  h1{
+
+  h1 {
     font-size: 28px;
   }
-  .header-pcloser{
+
+  .header-pcloser {
     font-size: 13px;
   }
-  .button{
+
+  .button {
     margin: 0;
   }
-  .cyan{
+
+  .cyan {
     display: block;
     width: 100%;
     margin-bottom: 20px;
   }
-  .blue{
+
+  .blue {
     width: 100%;
   }
-  .strech{
+
+  .strech {
     font-size: 13px;
   }
-  .col-xs-8{
+
+  .col-xs-8 {
     width: 100%;
   }
-  .col-xs-4{
+
+  .col-xs-4 {
     width: 100%;
   }
-  h3{
+
+  h3 {
     text-align: center;
   }
-  .details{
+
+  .details {
     text-align: center;
   }
-  .details-closer{
+
+  .details-closer {
     margin-top: -10px;
     text-align: center;
   }
-  .devices{
+
+  .devices {
     width: 100%;
   }
-  .col-xs-3{
+
+  .col-xs-3 {
     width: 100%;
   }
-  .google{
+
+  .google {
     margin-left: 100px;
     margin-bottom: 50px;
   }
-  .ibm{
+
+  .ibm {
     margin-left: 100px;
     margin-bottom: 50px;
   }
-  .ms{
+
+  .ms {
     margin-left: 100px;
     margin-bottom: 50px;
   }
-  .hp{
+
+  .hp {
     margin-left: 100px;
     margin-bottom: 50px;
   }
-  .vc{
+
+  .vc {
     margin-left: 100px;
     margin-bottom: 50px;
   }
-  .green{
+
+  .green {
     display: block;
     margin: 0;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .blues{
+
+  .blues {
     display: block;
     margin: 0;
     width: 100%;
   }
-  footer{
+
+  footer {
     position: relative;
     height: 500px;
   }
-  .position{
+
+  .position {
     position: absolute;
   }
-  .pri{
+
+  .pri {
     width: 100%;
     margin: 0;
     font-size: 25px;
     margin-left: -150px;
     margin-top: -20px;
   }
-  .pri:hover{
-    color:  hsl(171, 66%, 44%);
+
+  .pri:hover {
+    color: hsl(171, 66%, 44%);
   }
-  .logo{
-    margin-left:100px ;
+
+  .logo {
+    margin-left: 100px;
   }
-  .install{
+
+  .install {
     width: 100%;
     font-size: 25px;
-     margin-top: 10px;
-     margin-left: -140px;
+    margin-top: 10px;
+    margin-left: -140px;
   }
-  .contact{
+
+  .contact {
     width: 100%;
     margin-top: -20px;
     font-size: 25px;
     margin-left: -140px;
   }
-  .faqs{
-     font-size: 25px;
-     margin-left: -100px;
-     margin-top: 90px;
+
+  .faqs {
+    font-size: 25px;
+    margin-left: -100px;
+    margin-top: 90px;
   }
-  .pre{
+
+  .pre {
     width: 100%;
     margin-top: -20px;
     font-size: 25px;
     margin-left: -120px;
   }
-  .fb{
+
+  .fb {
+    margin-top: 100px;
+    margin-left: -700px;
+    margin-right: 20px;
+  }
+}
+
+@media(max-width:475px) {
+  .header-img {
+    margin-left: 70px;
+    margin-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .header-pcloser {
+    font-size: 13px;
+  }
+
+  .button {
+    margin: 0;
+  }
+
+  .cyan {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .blue {
+    width: 100%;
+  }
+
+  .strech {
+    font-size: 13px;
+  }
+
+  .col-xs-8 {
+    width: 100%;
+  }
+
+  .col-xs-4 {
+    width: 100%;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .details {
+    text-align: center;
+  }
+
+  .details-closer {
+    margin-top: -10px;
+    text-align: center;
+  }
+
+  .devices {
+    width: 100%;
+  }
+
+  .col-xs-3 {
+    width: 100%;
+  }
+
+  .google {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .ibm {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .ms {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .hp {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .vc {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .green {
+    display: block;
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .blues {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+
+  footer {
+    position: relative;
+    height: 500px;
+  }
+
+  .position {
+    position: absolute;
+  }
+
+  .pri {
+    width: 100%;
+    margin: 0;
+    font-size: 25px;
+    margin-left: -150px;
+    margin-top: -20px;
+  }
+
+  .pri:hover {
+    color: hsl(171, 66%, 44%);
+  }
+
+  .logo {
+    margin-left: 100px;
+  }
+
+  .install {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: -140px;
+  }
+
+  .contact {
+    width: 100%;
+    margin-top: -20px;
+    font-size: 25px;
+    margin-left: -140px;
+  }
+
+  .faqs {
+    font-size: 25px;
+    margin-left: -100px;
+    margin-top: 90px;
+  }
+
+  .pre {
+    width: 100%;
+    margin-top: -20px;
+    font-size: 25px;
+    margin-left: -120px;
+  }
+
+  .fb {
+    margin-top: 100px;
+    margin-left: -700px;
+    margin-right: 20px;
+  }
+}
+
+@media(max-width:575px) {
+  .header-img {
+    margin-left: 70px;
+    margin-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .header-pcloser {
+    font-size: 13px;
+  }
+
+  .button {
+    margin: 0;
+  }
+
+  .cyan {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .blue {
+    width: 100%;
+  }
+
+  .strech {
+    font-size: 13px;
+  }
+
+  .col-xs-8 {
+    width: 100%;
+  }
+
+  .col-xs-4 {
+    width: 100%;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .details {
+    text-align: center;
+  }
+
+  .details-closer {
+    margin-top: -10px;
+    text-align: center;
+  }
+
+  .devices {
+    width: 100%;
+  }
+
+  .col-xs-3 {
+    width: 100%;
+  }
+
+  .google {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .ibm {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .ms {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .hp {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .vc {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .green {
+    display: block;
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .blues {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+
+  footer {
+    position: relative;
+    height: 500px;
+  }
+
+  .position {
+    position: absolute;
+  }
+
+  .pri {
+    width: 100%;
+    margin: 0;
+    font-size: 25px;
+    margin-left: -150px;
+    margin-top: -20px;
+  }
+
+  .pri:hover {
+    color: hsl(171, 66%, 44%);
+  }
+
+  .logo {
+    margin-left: 100px;
+  }
+
+  .install {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: -140px;
+  }
+
+  .contact {
+    width: 100%;
+    margin-top: -20px;
+    font-size: 25px;
+    margin-left: -140px;
+  }
+
+  .faqs {
+    font-size: 25px;
+    margin-left: -100px;
+    margin-top: 90px;
+  }
+
+  .pre {
+    width: 100%;
+    margin-top: -20px;
+    font-size: 25px;
+    margin-left: -120px;
+  }
+
+  .fb {
+    margin-top: 100px;
+    margin-left: -700px;
+    margin-right: 20px;
+  }
+}
+
+@media(max-width:675px) {
+  .header-img {
+    margin-left: 70px;
+    margin-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .header-pcloser {
+    font-size: 13px;
+  }
+
+  .button {
+    margin: 0;
+  }
+
+  .cyan {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .blue {
+    width: 100%;
+  }
+
+  .strech {
+    font-size: 13px;
+  }
+
+  .col-xs-8 {
+    width: 100%;
+  }
+
+  .col-xs-4 {
+    width: 100%;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .details {
+    text-align: center;
+  }
+
+  .details-closer {
+    margin-top: -10px;
+    text-align: center;
+  }
+
+  .devices {
+    width: 100%;
+  }
+
+  .col-xs-3 {
+    width: 100%;
+  }
+
+  .google {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .ibm {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .ms {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .hp {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .vc {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .green {
+    display: block;
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .blues {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+
+  footer {
+    position: relative;
+    height: 500px;
+  }
+
+  .position {
+    position: absolute;
+  }
+
+  .pri {
+    width: 100%;
+    margin: 0;
+    font-size: 25px;
+    margin-left: -150px;
+    margin-top: -20px;
+  }
+
+  .pri:hover {
+    color: hsl(171, 66%, 44%);
+  }
+
+  .logo {
+    margin-left: 100px;
+  }
+
+  .install {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: -140px;
+  }
+
+  .contact {
+    width: 100%;
+    margin-top: -20px;
+    font-size: 25px;
+    margin-left: -140px;
+  }
+
+  .faqs {
+    font-size: 25px;
+    margin-left: -100px;
+    margin-top: 90px;
+  }
+
+  .pre {
+    width: 100%;
+    margin-top: -20px;
+    font-size: 25px;
+    margin-left: -120px;
+  }
+
+  .fb {
+    margin-top: 100px;
+    margin-left: -700px;
+    margin-right: 20px;
+  }
+}
+
+@media(max-width:875px) {
+  .header-img {
+    margin-left: 70px;
+    margin-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .header-pcloser {
+    font-size: 13px;
+  }
+
+  .button {
+    margin: 0;
+  }
+
+  .cyan {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .blue {
+    width: 100%;
+  }
+
+  .strech {
+    font-size: 13px;
+  }
+
+  .col-xs-8 {
+    width: 100%;
+  }
+
+  .col-xs-4 {
+    width: 100%;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .details {
+    text-align: center;
+  }
+
+  .details-closer {
+    margin-top: -10px;
+    text-align: center;
+  }
+
+  .devices {
+    width: 100%;
+  }
+
+  .col-xs-3 {
+    width: 100%;
+  }
+
+  .google {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .ibm {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .ms {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .hp {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .vc {
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .green {
+    display: block;
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .blues {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+
+  footer {
+    position: relative;
+    height: 500px;
+  }
+
+  .position {
+    position: absolute;
+  }
+
+  .pri {
+    width: 100%;
+    margin: 0;
+    font-size: 25px;
+    margin-left: -150px;
+    margin-top: -20px;
+  }
+
+  .pri:hover {
+    color: hsl(171, 66%, 44%);
+  }
+
+  .logo {
+    margin-left: 100px;
+  }
+
+  .install {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: -140px;
+  }
+
+  .contact {
+    width: 100%;
+    margin-top: -20px;
+    font-size: 25px;
+    margin-left: -140px;
+  }
+
+  .faqs {
+    font-size: 25px;
+    margin-left: -100px;
+    margin-top: 90px;
+  }
+
+  .pre {
+    width: 100%;
+    margin-top: -20px;
+    font-size: 25px;
+    margin-left: -120px;
+  }
+
+  .fb {
     margin-top: 100px;
     margin-left: -700px;
     margin-right: 20px;
